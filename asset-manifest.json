@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/closed-monday/static/css/main.2f1ed5bf.css",
+    "main.js": "/closed-monday/static/js/main.cd712160.js",
+    "static/js/787.35b76b04.chunk.js": "/closed-monday/static/js/787.35b76b04.chunk.js",
+    "static/media/hero-image.png": "/closed-monday/static/media/hero-image.db09096eae81d63ab3e7.png",
+    "static/media/collaborator1.png": "/closed-monday/static/media/collaborator1.0d23e3b49ecb71874c1e.png",
+    "static/media/collaborator2.png": "/closed-monday/static/media/collaborator2.083a73c7cc44e5b632f3.png",
+    "index.html": "/closed-monday/index.html",
+    "main.2f1ed5bf.css.map": "/closed-monday/static/css/main.2f1ed5bf.css.map",
+    "main.cd712160.js.map": "/closed-monday/static/js/main.cd712160.js.map",
+    "787.35b76b04.chunk.js.map": "/closed-monday/static/js/787.35b76b04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f1ed5bf.css",
+    "static/js/main.cd712160.js"
+  ]
+}
