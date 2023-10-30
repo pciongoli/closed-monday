@@ -40,6 +40,7 @@ const PortfolioPage = () => {
       } else if (project.type === "tiktok") {
          return (
             <iframe
+               title="TikTok Widget"
                width="200"
                height="400"
                src={project.mediaUrl}
@@ -52,6 +53,7 @@ const PortfolioPage = () => {
       } else if (project.type === "iframe") {
          return (
             <iframe
+               title="Spotify Widget - Portfolio 1"
                style={{ borderRadius: "12px" }}
                width="100%"
                height="352"

@@ -5,7 +5,7 @@ import "../styles/HomePage.css";
 const HomePage = () => (
    <div className="home">
       <div className="hero">
-         <img src={heroImage} alt="Hero Image" className="hero-image" />
+         <img src={heroImage} alt="Promotional banner" className="hero-image" />
 
          <div className="action-buttons">
             <button onClick={() => (window.location.href = "/contact")}>
@@ -27,6 +27,7 @@ const HomePage = () => (
             <div className="spotify-widget">
                <h3>JOHNNY DRINKS</h3>
                <iframe
+                  title="Spotify Widget - JOHNNY DRINKS"
                   style={{ borderRadius: "12px" }}
                   src="https://open.spotify.com/embed/show/7xuYMlfFAXUfReoHKGHjb6?utm_source=generator"
                   width="100%"
@@ -40,6 +41,7 @@ const HomePage = () => (
             <div className="spotify-widget">
                <h3>UNDER THE INFLUENCE</h3>
                <iframe
+                  title="Spotify Widget - JOHNNY DRINKS"
                   style={{ borderRadius: "12px" }}
                   src="https://open.spotify.com/embed/show/5NDVTKGjiZhrth5hJbfvsA/video?utm_source=generator"
                   width="624"
@@ -53,6 +55,7 @@ const HomePage = () => (
             <div className="spotify-widget">
                <h3>SUBURB TALKS</h3>
                <iframe
+                  title="Spotify Widget - JOHNNY DRINKS"
                   style={{ borderRadius: "12px" }}
                   src="https://open.spotify.com/embed/show/4YLbUxILwRNN9e1UUCDV1D?utm_source=generator"
                   width="100%"

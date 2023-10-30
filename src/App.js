@@ -1,5 +1,5 @@
 // src/App.js
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
