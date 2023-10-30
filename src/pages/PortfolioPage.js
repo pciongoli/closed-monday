@@ -20,7 +20,7 @@ const projects = [
    },
    {
       mediaUrl:
-         "https://open.spotify.com/embed/show/5NDVTKGjiZhrth5hJbfvsA/video?utm_source=generator",
+         "https://open.spotify.com/embed/show/4YLbUxILwRNN9e1UUCDV1D?utm_source=generator",
       title: "SUBURB TALKS",
       details: "Description for SUBURB TALKS...",
       technicalDetails: "Technical details...",
@@ -75,8 +75,8 @@ const PortfolioPage = () => {
          </div>
 
          <section id="podcasts">
+            <h2>Podcasts</h2>
             <div className="projects">
-               <h2>Podcasts</h2>
                {projects
                   .filter((p) => p.type === "iframe")
                   .map((project, index) => (
@@ -95,8 +95,8 @@ const PortfolioPage = () => {
          </section>
 
          <section id="audio">
+            <h2>Audio</h2>
             <div className="projects">
-               <h2>Audio</h2>
                {projects
                   .filter((p) => p.type === "audio")
                   .map((project, index) => (

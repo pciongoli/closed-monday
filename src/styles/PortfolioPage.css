@@ -1,7 +1,8 @@
+/* PortfolioPage.css */
+
 .portfolio {
    font-family: Arial, sans-serif;
-   padding: 60px;
-   background-color: #f9f9f9;
+   padding: 80px 40px;
    color: #333;
 }
 
@@ -44,12 +45,10 @@
    display: inline-block;
    vertical-align: top;
    max-width: 320px;
-   border: 1px solid #e0e0e0;
    padding: 25px;
    border-radius: 10px;
    position: relative;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
-   background-color: #fff;
 }
 
 .project:hover {
@@ -99,7 +98,7 @@ section h2 {
    }
 
    .portfolio {
-      padding: 30px;
+      padding: 60px, 1;
    }
 }
 
@@ -111,4 +110,26 @@ section h2 {
 .projects::-webkit-scrollbar-thumb {
    background-color: #666;
    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+   .filters {
+      flex-direction: column;
+      gap: px;
+   }
+
+   .project {
+      max-width: 100%;
+      padding: 15px;
+   }
+
+   .project-title {
+      font-size: 18px;
+   }
+
+   .project-details,
+   .technical-details {
+      font-size: 13px;
+      margin: 10px 0;
+   }
 }

@@ -1,3 +1,5 @@
+/* Footer.css */
+
 .footer {
    display: flex;
    color: white;
@@ -77,4 +79,32 @@
 
 .footer-icons a:hover {
    color: #ff5733; /* Change color on hover */
+}
+
+@media (max-width: 600px) {
+   .footer {
+      gap: 15px;
+      padding: 10px 20px;
+   }
+
+   .footer-logo {
+      font-size: 1.3em;
+      margin-bottom: 8px;
+   }
+
+   .footer-content {
+      gap: 12px;
+   }
+
+   .footer-contact {
+      gap: 8px;
+   }
+
+   .footer-icons {
+      gap: 15px;
+   }
+
+   .footer-icons a {
+      font-size: 1em;
+   }
 }

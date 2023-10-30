@@ -1,7 +1,5 @@
 import React from "react";
 import heroImage from "../assets/image/hero-image.png";
-import collaborator1 from "../assets/image/collaborator1.png";
-import collaborator2 from "../assets/image/collaborator2.png";
 import "../styles/HomePage.css";
 
 const HomePage = () => (
@@ -13,7 +11,7 @@ const HomePage = () => (
             <button onClick={() => (window.location.href = "/contact")}>
                Get in Contact with Us
             </button>
-            <button onClick={() => (window.location.href = "/services")}>
+            <button onClick={() => (window.location.href = "/portfolio")}>
                See some of our work!{" "}
             </button>
          </div>
@@ -26,8 +24,6 @@ const HomePage = () => (
       <div className="clients-section">
          <h2>Our Collaborators</h2>
          <div className="widgets-container">
-            {" "}
-            {/* This is the new container */}
             <div className="spotify-widget">
                <h3>JOHNNY DRINKS</h3>
                <iframe
@@ -69,47 +65,6 @@ const HomePage = () => (
             </div>
          </div>
       </div>
-
-      {/* <div className="reviews-section">
-         <h2>Don't just take our word for it. See what people say about us!</h2>
-         <div className="review-videos">
-            <iframe
-               width="200"
-               height="400"
-               src="https://www.tiktok.com/embed/v2/6914690665511144710?lang=en-US"
-               frameborder="0"
-               allowfullscreen
-            ></iframe>
-            <iframe
-               width="200"
-               height="400"
-               src="https://www.tiktok.com/embed/v2/6914338379173743878?lang=en-US"
-               frameborder="0"
-               allowfullscreen
-            ></iframe>
-            <iframe
-               width="200"
-               height="400"
-               src="https://www.tiktok.com/embed/v2/6914337171306466566?lang=en-US"
-               frameborder="0"
-               allowfullscreen
-            ></iframe>
-            <iframe
-               width="200"
-               height="400"
-               src="https://www.tiktok.com/embed/v2/6955938582553218310?lang=en-US"
-               frameborder="0"
-               allowfullscreen
-            ></iframe>
-            <iframe
-               width="200"
-               height="400"
-               src="https://www.tiktok.com/embed/v2/6955938582553218310?lang=en-US"
-               frameborder="0"
-               allowfullscreen
-            ></iframe>
-         </div>
-      </div> */}
 
       <div className="services-overview">
          <h2>Services We Offer</h2>
