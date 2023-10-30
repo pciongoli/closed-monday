@@ -1,11 +1,11 @@
 // src/App.js
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ServicesPage from "./pages/ServicesPage";
 import ContactPage from "./pages/ContactPage";
-import Footer from "./components/Footer"; // Import the Footer component
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -13,8 +13,6 @@ function App() {
       <Router>
          <NavBar />
          <div className="app-container">
-            {" "}
-            {/* New container div */}
             <div className="main-content">
                <Routes>
                   <Route path="closed-monday/" element={<HomePage />} />
