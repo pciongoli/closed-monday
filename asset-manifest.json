@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "https://pciongoli.github.io/closed-monday/static/css/main.7d149229.css",
-    "main.js": "https://pciongoli.github.io/closed-monday/static/js/main.d2784187.js",
-    "static/js/787.35b76b04.chunk.js": "https://pciongoli.github.io/closed-monday/static/js/787.35b76b04.chunk.js",
-    "static/media/hero-image.png": "https://pciongoli.github.io/closed-monday/static/media/hero-image.db09096eae81d63ab3e7.png",
-    "index.html": "https://pciongoli.github.io/closed-monday/index.html",
-    "main.7d149229.css.map": "https://pciongoli.github.io/closed-monday/static/css/main.7d149229.css.map",
-    "main.d2784187.js.map": "https://pciongoli.github.io/closed-monday/static/js/main.d2784187.js.map",
-    "787.35b76b04.chunk.js.map": "https://pciongoli.github.io/closed-monday/static/js/787.35b76b04.chunk.js.map"
+    "main.css": "/closed-monday/static/css/main.7d149229.css",
+    "main.js": "/closed-monday/static/js/main.da5a4375.js",
+    "static/js/787.35b76b04.chunk.js": "/closed-monday/static/js/787.35b76b04.chunk.js",
+    "static/media/hero-image.png": "/closed-monday/static/media/hero-image.db09096eae81d63ab3e7.png",
+    "index.html": "/closed-monday/index.html",
+    "main.7d149229.css.map": "/closed-monday/static/css/main.7d149229.css.map",
+    "main.da5a4375.js.map": "/closed-monday/static/js/main.da5a4375.js.map",
+    "787.35b76b04.chunk.js.map": "/closed-monday/static/js/787.35b76b04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d149229.css",
-    "static/js/main.d2784187.js"
+    "static/js/main.da5a4375.js"
   ]
 }
