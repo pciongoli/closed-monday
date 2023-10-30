@@ -81,7 +81,6 @@
    margin-top: 40px;
    padding: 20px;
    border-radius: 5px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .services-overview h2 {
@@ -96,24 +95,25 @@
 
 .contact-section {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    align-items: center;
-   padding: 20px 0;
-   flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+   padding: 40px;
+   border-radius: 10px; /* rounded corners */
+   margin-top: 40px; /* spacing from the previous section */
+   flex-wrap: wrap;
 }
 
 .contact-text {
-   font-size: 18px;
+   font-size: 24px; /* increased font size */
    font-weight: bold;
-   flex: 1; /* Makes the text container take up any available space */
-   text-align: center; /* Center the text on smaller screens */
-   margin-bottom: 20px; /* Spacing between text and image on smaller screens */
+   text-align: center;
+   margin: 20px; /* spacing around the text */
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* subtle text shadow */
 }
 
 .editor-image {
-   width: 50%;
-   max-width: 500px;
-   flex-basis: 50%; /* This will help define a width for the image container in the flex layout */
+   max-width: 400px; /* limit the image width */
+   margin: 20px; /* spacing around the image */
 }
 
 .clients-section .widgets-container {
@@ -270,14 +270,14 @@
    align-items: center;
    padding: 20px;
    margin-bottom: 20px;
-   border-radius: 5px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 20px;
+   border-color: #36b26a;
 }
 
 .testimonials .avatar {
    width: 60px;
    height: 60px;
-   background-color: #e6e6e6;
+   background-color: #36b26a;
    border-radius: 50%;
    margin-right: 20px;
 }
