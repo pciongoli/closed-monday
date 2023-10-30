@@ -13,7 +13,7 @@ const NavBar = () => {
    return (
       <nav className="navbar">
          <div className="nav-logo">
-            <Link to="/" className="navbar-logo-link">
+            <Link to="/closed-monday" className="navbar-logo-link">
                <h2>Closed Monday</h2>
             </Link>
          </div>

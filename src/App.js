@@ -17,7 +17,7 @@ function App() {
             {/* New container div */}
             <div className="main-content">
                <Routes>
-                  <Route path="/" element={<HomePage />} />
+                  <Route path="closed-monday/" element={<HomePage />} />
                   <Route path="/portfolio" element={<PortfolioPage />} />
                   <Route path="/services" element={<ServicesPage />} />
                   <Route path="/contact" element={<ContactPage />} />
