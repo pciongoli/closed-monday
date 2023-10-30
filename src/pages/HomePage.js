@@ -32,8 +32,7 @@ const HomePage = () => (
                   src="https://open.spotify.com/embed/show/7xuYMlfFAXUfReoHKGHjb6?utm_source=generator"
                   width="100%"
                   height="352"
-                  frameBorder="0"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   loading="lazy"
                ></iframe>
@@ -46,8 +45,7 @@ const HomePage = () => (
                   src="https://open.spotify.com/embed/show/5NDVTKGjiZhrth5hJbfvsA/video?utm_source=generator"
                   width="624"
                   height="351"
-                  frameBorder="0"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   loading="lazy"
                ></iframe>
@@ -60,8 +58,7 @@ const HomePage = () => (
                   src="https://open.spotify.com/embed/show/4YLbUxILwRNN9e1UUCDV1D?utm_source=generator"
                   width="100%"
                   height="352"
-                  frameBorder="0"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   loading="lazy"
                ></iframe>

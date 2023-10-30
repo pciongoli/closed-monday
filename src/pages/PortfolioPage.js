@@ -44,8 +44,7 @@ const PortfolioPage = () => {
                width="200"
                height="400"
                src={project.mediaUrl}
-               frameborder="0"
-               allowfullscreen
+               allowFullScreen=""
             ></iframe>
          );
       } else if (project.type === "audio") {
@@ -58,8 +57,7 @@ const PortfolioPage = () => {
                width="100%"
                height="352"
                src={project.mediaUrl}
-               frameborder="0"
-               allowfullscreen=""
+               allowFullScreen=""
                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                loading="lazy"
             ></iframe>
