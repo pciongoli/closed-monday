@@ -94,8 +94,26 @@
    margin-left: 40px;
 }
 
-body {
-   background-color: #ffffff;
+.contact-section {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+   flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.contact-text {
+   font-size: 18px;
+   font-weight: bold;
+   flex: 1; /* Makes the text container take up any available space */
+   text-align: center; /* Center the text on smaller screens */
+   margin-bottom: 20px; /* Spacing between text and image on smaller screens */
+}
+
+.editor-image {
+   width: 50%;
+   max-width: 500px;
+   flex-basis: 50%; /* This will help define a width for the image container in the flex layout */
 }
 
 .clients-section .widgets-container {
@@ -327,6 +345,7 @@ body {
    .clients-section .widgets-container {
       display: flex;
       overflow-x: auto;
+      gap: 10px;
    }
 }
 
@@ -339,8 +358,23 @@ body {
 @media (max-width: 768px) {
    .spotify-widget {
       display: block;
-      width: 100%;
-      max-width: 100%;
+      width: 90%;
+      max-width: 90%;
       margin-bottom: 20px; /* Adding some spacing between items for smoother scrolling */
+   }
+}
+
+/* For devices with a maximum width of 768px (e.g., tablets and mobile devices) */
+@media only screen and (max-width: 768px) {
+   .editor-image {
+      width: 80%; /* Make image slightly bigger on smaller screens */
+      flex-basis: 80%; /* Adjust the width basis for the image on smaller screens */
+      margin: 0 auto; /* Center the image */
+   }
+
+   .contact-text {
+      flex-basis: 100%; /* Make the text container take full width on smaller screens */
+      padding-top: 50px;
+      padding-bottom: 0;
    }
 }

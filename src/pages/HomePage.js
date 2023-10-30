@@ -1,5 +1,7 @@
 import React from "react";
 import heroImage from "../assets/image/hero-image.png";
+import videoEditorImage from "../assets/image/video-editor-img2.png";
+
 import "../styles/HomePage.css";
 
 const HomePage = () => (
@@ -88,6 +90,15 @@ const HomePage = () => (
                Explore All Our Exciting Services!
             </button>
          </div>
+      </div>
+
+      <div className="contact-section">
+         <img
+            src={videoEditorImage}
+            alt="Video Editor"
+            className="editor-image"
+         />
+         <div className="contact-text">Text us anytime at 200-CLOSEDMO</div>
       </div>
 
       <div className="testimonials">
