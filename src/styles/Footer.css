@@ -1,19 +1,34 @@
-/* Footer.css */
-
 .footer {
    display: flex;
    color: white;
    justify-content: space-between;
    align-items: center;
    padding: 20px 40px;
-   background-color: black; /* Darker background color */
+   background-color: black; /* Updated background color */
+}
+
+.footer-logo-link {
+   text-decoration: none; /* Remove underline */
+   color: white; /* Set color to white */
+   transition: color 0.3s; /* Transition for hover effect */
+}
+
+.footer-logo-link:hover {
+   color: gold; /* Highlight color on hover */
 }
 
 .footer-logo {
    font-size: 1.5em;
    font-weight: bold;
-   flex: 1; /* Allow the logo to take up space for even distribution */
-   margin-bottom: 10px; /* Add some space below the logo */
+   flex: 1;
+   margin-bottom: 10px;
+}
+
+.email {
+   color: white;
+}
+.phone {
+   color: white;
 }
 
 .copyright {
@@ -22,21 +37,52 @@
 
 .footer-content {
    display: flex;
-   flex: 3; /* Adjust flex value for better spacing */
+   flex: 3;
    align-items: center;
    gap: 40px;
 }
 
 .footer-contact {
-   text-align: center; /* Center the contact details */
-   flex: 2; /* Adjust flex value for better spacing */
+   text-align: center;
+   flex: 2;
+   color: white;
 }
 
+.footer-link {
+   text-decoration: none; /* Remove underline */
+   color: white; /* Same color as other text */
+   margin: 5px 0;
+   display: block;
+   transition: color 0.3s;
+}
+
+.footer-link:hover {
+   color: gold; /* Highlight on hover */
+}
+
+.footer-icons {
+   order: 1;
+   display: flex;
+   gap: 20px;
+   flex: 1;
+}
+
+.footer-icons a {
+   color: #fff;
+   font-size: 1.2em;
+   transition: color 0.3s;
+}
+
+.footer-icons a:hover {
+   color: #ff5733;
+}
+
+/* Responsive styles for smaller screens */
 @media (max-width: 768px) {
    .footer {
       flex-direction: column;
       gap: 20px;
-      padding: 10px; /* Adjust padding for smaller screens */
+      padding: 10px;
    }
 
    .footer-content {
@@ -46,39 +92,14 @@
    }
 
    .footer .footer-contact {
-      align-items: center; /* Center alignment for smaller screens */
+      align-items: center;
       gap: 10px;
    }
 
    .footer-icons {
       justify-content: center;
-      margin: 10px 0; /* Add some margin for better spacing */
+      margin: 10px 0;
    }
-}
-
-.footer .footer-contact {
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
-   justify-content: space-between;
-   align-items: center; /* Center the contact details */
-}
-
-.footer-icons {
-   order: 1; /* Ensure icons are on the far right */
-   display: flex;
-   gap: 20px; /* Increase gap for better spacing */
-   flex: 1; /* Adjust flex value for better spacing */
-}
-
-.footer-icons a {
-   color: #fff; /* White color for the icons */
-   font-size: 1.2em; /* Adjust the size of the icons */
-   transition: color 0.3s; /* Smooth color transition on hover */
-}
-
-.footer-icons a:hover {
-   color: #ff5733; /* Change color on hover */
 }
 
 @media (max-width: 600px) {

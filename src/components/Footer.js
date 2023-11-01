@@ -1,17 +1,28 @@
 import React from "react";
 import "../styles/Footer.css";
+import { Link } from "react-router-dom"; // Importing Link from react-router-dom to create clickable links
 
 const Footer = () => (
    <footer className="footer">
       <div className="footer-content">
-         <div className="footer-logo">ClosedMonday</div>
+         {/* Making the logo a link to the homepage */}
+         <Link to="/" className="footer-logo-link">
+            <div className="footer-logo">ClosedMonday</div>
+         </Link>
          <div>
-            <p>About Us</p>
-            <p>Careers</p>
+            <Link to="/about" className="footer-link">
+               About Us
+            </Link>
+            <Link to="/careers" className="footer-link">
+               Careers
+            </Link>
+            <Link to="/contact" className="footer-link">
+               Contact
+            </Link>
          </div>
          <div className="footer-contact">
-            <p>Email: contact@closedmonday.media</p>
-            <p>Phone: +123 456 7890</p>
+            <p className="email">Email: contact@closedmonday.media</p>
+            <p className="phone">Phone: +123 456 7890</p>
             <p className="copyright">
                © 2023 Closed Monday. All rights reserved.
             </p>
