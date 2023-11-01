@@ -29,7 +29,6 @@ const ContactPage = () => (
             <p>Phone: +1 234 567 890</p>
             <p>Email: contact@videoeditor.com</p>
             <p>Address: 123 Video Lane, Edit City, VC 12345</p>
-            <img src="placeholder-map.png" alt="Location Map" />
          </div>
       </div>
    </div>
