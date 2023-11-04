@@ -2,13 +2,12 @@
 
 body {
    margin: 0;
-   font-family: "Roboto", sans-serif; /* This sets Roboto as the primary font for the body */
+   font-family: "DM Sans", sans-serif; /* This sets Roboto as the primary font for the body */
    background-color: #ffffff;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
+   font-family: "DM Sans", monospace;
 }

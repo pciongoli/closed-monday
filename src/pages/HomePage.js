@@ -23,20 +23,20 @@ const HomePage = () => (
          <img src={heroLogo} alt="Logo" className="hero-logo" />
          <video className="hero-video" autoPlay loop muted>
             <source src={heroVideo} type="video/mp4" />
-            Your browser does not support the video tag.
+            YOUR BROWSER DOES NOT SUPPORT THE VIDEO TAG.
          </video>
          <div className="action-buttons">
             <button onClick={() => (window.location.href = "/contact")}>
-               Get in Contact with Us
+               GET IN CONTACT WITH US
             </button>
 
             <button onClick={() => (window.location.href = "/portfolio")}>
-               See some of our work!
+               SEE SOME OF OUR WORK!
             </button>
          </div>
       </div>
       <div className="clients-section">
-         <h2>Our Collaborators</h2>
+         <h2>OUR COLLABORATORS</h2>
          <div className="widgets-container">
             <div className="spotify-widget">
                <h3>JOHNNY DRINKS</h3>
@@ -80,16 +80,16 @@ const HomePage = () => (
          </div>
       </div>
       <div className="services-overview">
-         <h2>Services We Offer</h2>
+         <h2>SERVICES WE OFFER</h2>
          <div className="services-container">
             <div className="services-list">
                <ul>
-                  <li>Full podcast production</li>
-                  <li>Short form clips</li>
-                  <li>Long form</li>
-                  <li>Audio</li>
-                  <li>Project management</li>
-                  <li>TikTok video editing</li>
+                  <li>FULL PODCAST PRODUCTION</li>
+                  <li>SHORT FORM CLIPS</li>
+                  <li>LONG FORM</li>
+                  <li>AUDIO</li>
+                  <li>PROJECT MANAGEMENT</li>
+                  <li>TIKTOK VIDEO EDITING</li>
                </ul>
             </div>
             <div className="explore-services-btn-container">
@@ -97,7 +97,7 @@ const HomePage = () => (
                   className="explore-services-btn"
                   onClick={() => (window.location.href = "/services")}
                >
-                  Explore All Our Exciting Services!
+                  EXPLORE ALL OUR EXCITING SERVICES!
                </button>
                <img
                   src={videoEditorImage2}
@@ -109,7 +109,7 @@ const HomePage = () => (
       </div>
 
       <div className="short-videos-section">
-         <h2>Short Videos & TikToks</h2>
+         <h2>SHORT VIDEOS & TIKTOKS</h2>
          <div className="video-container">
             <iframe
                width="315"
@@ -150,20 +150,20 @@ const HomePage = () => (
          </div>
       </div>
       <div className="contact-section">
-         <div className="contact-text">Text us anytime at 200-CLOSEDMO</div>
+         <div className="contact-text">TEXT US ANYTIME AT 200-CLOSEDMO</div>
          <img
             src={videoEditorImage}
             alt="Video Editor"
             className="editor-image"
          />
          <div className="contact-info">
-            <p>Got a project in mind?</p>
-            <p>Let's talk and turn your vision into reality.</p>
-            <p>Reach out to us and get your quote today!</p>
+            <p>GOT A PROJECT IN MIND?</p>
+            <p>LET'S TALK AND TURN YOUR VISION INTO REALITY.</p>
+            <p>REACH OUT TO US AND GET YOUR QUOTE TODAY!</p>
          </div>
       </div>
       <div className="testimonials">
-         <h2>What Our Clients Say</h2>
+         <h2>WHAT OUR CLIENTS SAY</h2>
          <Slider {...settings}>
             <div className="testimonial-container">
                <div className="avatar"></div>
@@ -173,7 +173,7 @@ const HomePage = () => (
                      for our corporate videos. Highly recommended!"
                   </p>
                </div>
-               <div class="testimonial-author">- John Doe, CEO of ABC Corp</div>
+               <div class="testimonial-author">- JOHN DOE, CEO OF ABC CORP</div>
             </div>
             <div className="testimonial-container">
                <div className="avatar"></div>
@@ -184,7 +184,7 @@ const HomePage = () => (
                   </p>
                </div>
                <div class="testimonial-author">
-                  - Jane Smith, Documentary Producer
+                  - JANE SMITH, DOCUMENTARY PRODUCER
                </div>
             </div>
             <div className="testimonial-container">
@@ -196,7 +196,7 @@ const HomePage = () => (
                   </p>
                </div>
                <div class="testimonial-author">
-                  - Michael Lee, Marketing Director
+                  - MICHAEL LEE, MARKETING DIRECTOR
                </div>
             </div>
          </Slider>

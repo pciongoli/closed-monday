@@ -1,11 +1,15 @@
 /* ServicesPage.css */
 
 .services {
+   display: flex;
+   flex-direction: column; /* Stack flex items on top of each other */
+   align-items: center; /* Center items along the cross-axis (horizontally in this case) */
+   justify-content: center; /* Center items along the main-axis (vertically in this case) */
+   margin-left: auto;
+   margin-right: auto;
    padding: 40px 20px 20px;
    text-align: center;
    max-width: 950px;
-   justify-content: center;
-   align-items: center;
 }
 
 .service-item {
@@ -16,6 +20,7 @@
    transition: box-shadow 0.3s ease, transform 0.2s ease;
    display: flex;
    align-items: center;
+   width: 700px;
 }
 
 .service-item:hover {
