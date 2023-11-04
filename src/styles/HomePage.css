@@ -1,3 +1,23 @@
+.services-list ul li {
+   min-width: 250px; /* Adjust the value as needed to prevent text wrapping */
+   display: block;
+   text-align: center; /* Center text within li */
+}
+
+.services-overview h2 {
+   font-weight: bold;
+   margin-bottom: 19px;
+   text-align: left; /* Align to the left on all screens */
+   margin-left: 20px; /* Provide some space from the left edge */
+}
+
+@media only screen and (max-width: 600px) {
+   .services-list ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center ul within its container */
+   }
+}
 body,
 html {
    font-family: "Arial", sans-serif;
@@ -464,10 +484,6 @@ img {
    align-items: start;
 }
 
-.services-list {
-   flex: 1;
-}
-
 .explore-services-btn,
 .services-overview-image {
    margin-left: auto;
@@ -491,7 +507,7 @@ img {
 
 .services-list {
    flex: 1;
-   max-width: 50%;
+   /* max-width: 50%; */
 }
 
 .explore-services-btn-container {
@@ -505,10 +521,6 @@ img {
 .explore-services-btn-container button {
    order: -1;
    margin-bottom: 10px;
-}
-
-.services-list {
-   flex: 1 0 60%;
 }
 
 .services-list ul {
@@ -633,10 +645,6 @@ img {
       align-items: center;
       justify-content: center;
    }
-   .services-list ul {
-      width: 100%;
-      padding: 0;
-   }
 }
 
 @media (min-width: 992px) {
@@ -735,25 +743,6 @@ img {
 @media (max-width: 768px) {
    .services-list,
    .explore-services-btn-container {
-      flex-basis: 100%;
-   }
-}
-
-@media (max-width: 768px) {
-   .services-overview {
-      align-items: center;
-   }
-   .services-list,
-   .explore-services-btn-container {
-      flex-basis: 100%;
-      justify-content: center;
-      text-align: center;
-   }
-}
-
-@media (max-width: 768px) {
-   .services-list,
-   .explore-services-btn-container {
       max-width: 100%;
    }
 }
@@ -813,5 +802,58 @@ img {
    .services-overview-image {
       width: 100%;
       height: auto;
+   }
+}
+
+/* Center the logo image within the hero section */
+.hero-logo {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 200px; /* You can adjust the size of the logo as needed */
+   max-height: 100%; /* You can adjust the size of the logo as needed */
+   z-index: 2; /* Ensure it's above the video */
+}
+
+.hero .action-buttons {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center; /* This will keep buttons centered in the container */
+   gap: 10px; /* Adds space between buttons when they wrap */
+}
+
+.hero .action-buttons .action-button {
+   width: auto; /* Allows the button to maintain the size of its content */
+   min-width: 120px; /* Minimum width of the buttons */
+}
+
+/* Media query for smaller screens to stack buttons vertically */
+@media (max-width: 768px) {
+   .hero .action-buttons {
+      flex-direction: column;
+   }
+}
+
+/* Media query for smaller screens to center .services-list */
+@media (max-width: 768px) {
+   .services-list {
+      text-align: center; /* Centers the text of the list items */
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centers the flex items */
+      list-style: none; /* Removes the default list styling if needed */
+      padding: 0; /* Removes default padding */
+   }
+   .services-list li {
+      display: block; /* Makes each list item a block to respond to text-align */
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .services-list ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center ul within its container */
    }
 }

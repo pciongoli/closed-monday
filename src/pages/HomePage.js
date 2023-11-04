@@ -1,6 +1,7 @@
 import React from "react";
-import heroVideo from "../assets/video/hero-video.mp4"; // Update the import path as necessary
+import heroVideo from "../assets/video/hero-video.mp4";
 import videoEditorImage from "../assets/image/video-editor-img2.png";
+import heroLogo from "../assets/image/hero-logo.png";
 import videoEditorImage2 from "../assets/image/video-editor-img3.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -19,7 +20,7 @@ const settings = {
 const HomePage = () => (
    <div className="home">
       <div className="hero">
-         {/* Replace img tag with video tag */}
+         <img src={heroLogo} alt="Logo" className="hero-logo" />
          <video className="hero-video" autoPlay loop muted>
             <source src={heroVideo} type="video/mp4" />
             Your browser does not support the video tag.
@@ -28,11 +29,6 @@ const HomePage = () => (
             <button onClick={() => (window.location.href = "/contact")}>
                Get in Contact with Us
             </button>
-            <img
-               src="/assets/images/video-editor-img3.png"
-               alt="Service Overview"
-               className="services-overview-image"
-            />
 
             <button onClick={() => (window.location.href = "/portfolio")}>
                See some of our work!

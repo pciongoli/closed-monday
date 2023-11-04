@@ -1,20 +1,38 @@
-import React, { useState } from "react";
+import LogoImage from "../assets/image/hero-logo.png";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import "../styles/NavBar.css";
 
 const NavBar = () => {
    const [isOpen, setIsOpen] = useState(false);
+   const [visible, setVisible] = useState(false); // Initialize visibility to false
 
    const toggleMenu = () => {
       setIsOpen(!isOpen);
    };
 
+   const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      if (currentScrollPos > 0) {
+         setVisible(true); // Make the navbar visible once scrolled
+      }
+   };
+
+   useEffect(() => {
+      window.addEventListener("scroll", handleScroll);
+
+      // Cleanup function to remove the event listener
+      return () => {
+         window.removeEventListener("scroll", handleScroll);
+      };
+   }, []); // Empty array ensures this effect runs only once after the initial render
+
    return (
-      <nav className="navbar">
+      <nav className={`navbar ${visible ? "visible" : ""}`}>
          <div className="nav-logo">
             <Link to="/" className="navbar-logo-link">
-               <h2>Closed Monday</h2>
+               <img src={LogoImage} alt="Logo" className="navbar-logo-image" />
             </Link>
          </div>
          <div className="menu-icon" onClick={toggleMenu}>
