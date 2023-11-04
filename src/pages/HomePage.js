@@ -1,6 +1,7 @@
 import React from "react";
 import heroVideo from "../assets/video/hero-video.mp4"; // Update the import path as necessary
 import videoEditorImage from "../assets/image/video-editor-img2.png";
+import videoEditorImage2 from "../assets/image/video-editor-img3.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -27,6 +28,12 @@ const HomePage = () => (
             <button onClick={() => (window.location.href = "/contact")}>
                Get in Contact with Us
             </button>
+            <img
+               src="/assets/images/video-editor-img3.png"
+               alt="Service Overview"
+               className="services-overview-image"
+            />
+
             <button onClick={() => (window.location.href = "/portfolio")}>
                See some of our work!
             </button>
@@ -89,14 +96,22 @@ const HomePage = () => (
                   <li>TikTok video editing</li>
                </ul>
             </div>
-            <button
-               className="explore-services-btn"
-               onClick={() => (window.location.href = "/services")}
-            >
-               Explore All Our Exciting Services!
-            </button>
+            <div className="explore-services-btn-container">
+               <button
+                  className="explore-services-btn"
+                  onClick={() => (window.location.href = "/services")}
+               >
+                  Explore All Our Exciting Services!
+               </button>
+               <img
+                  src={videoEditorImage2}
+                  alt="Service Overview"
+                  className="services-overview-image"
+               />
+            </div>
          </div>
       </div>
+
       <div className="short-videos-section">
          <h2>Short Videos & TikToks</h2>
          <div className="video-container">
@@ -140,16 +155,16 @@ const HomePage = () => (
       </div>
       <div className="contact-section">
          <div className="contact-text">Text us anytime at 200-CLOSEDMO</div>
-         <div className="contact-info">
-            <p>Got a project in mind?</p>
-            <p>Let's talk and turn your vision into reality.</p>
-            <p>Reach out to us and get your quote today!</p>
-         </div>
          <img
             src={videoEditorImage}
             alt="Video Editor"
             className="editor-image"
          />
+         <div className="contact-info">
+            <p>Got a project in mind?</p>
+            <p>Let's talk and turn your vision into reality.</p>
+            <p>Reach out to us and get your quote today!</p>
+         </div>
       </div>
       <div className="testimonials">
          <h2>What Our Clients Say</h2>
