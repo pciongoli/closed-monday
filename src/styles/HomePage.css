@@ -719,9 +719,6 @@ img {
       margin-bottom: 10px;
       font-size: 1.5rem;
    }
-   .services-overview ul {
-      margin-left: 20px;
-   }
 }
 @media (max-width: 576px) {
    .services-overview {
@@ -733,9 +730,7 @@ img {
       margin-bottom: 5px;
       font-size: 1.2rem;
    }
-   .services-overview ul {
-      margin-left: 10px;
-   }
+
    .services-overview-image {
       width: 100%;
       height: auto;
