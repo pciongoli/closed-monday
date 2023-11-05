@@ -163,6 +163,10 @@ img {
    -webkit-overflow-scrolling: touch;
    scrollbar-width: none;
 }
+
+.clients-section h2 {
+   text-align: center;
+}
 .client-images {
    display: flex;
    justify-content: space-around;
@@ -347,7 +351,10 @@ img {
 .contact-section {
    max-width: 1000px;
    margin: 45.6px auto;
-   padding: 0 48px;
+   padding: 0 8px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
 }
 .slick-dots li button:before,
 .slick-prev:before,
@@ -382,6 +389,11 @@ img {
    max-width: 1000px;
    margin: 45.6px auto;
    overflow: hidden;
+}
+
+.short-videos-section h2 {
+   text-align: center;
+   align-items: center;
 }
 .video-container {
    display: flex;

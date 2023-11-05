@@ -167,35 +167,37 @@ const HomePage = () => (
          <Slider {...settings}>
             <div className="testimonial-container">
                <div className="avatar"></div>
-               <div class="testimonial-text">
+               <div className="testimonial-text">
                   <p>
                      "Closed On Mondays provided exceptional editing services
                      for our corporate videos. Highly recommended!"
                   </p>
                </div>
-               <div class="testimonial-author">- JOHN DOE, CEO OF ABC CORP</div>
+               <div className="testimonial-author">
+                  - JOHN DOE, CEO OF ABC CORP
+               </div>
             </div>
             <div className="testimonial-container">
                <div className="avatar"></div>
-               <div class="testimonial-text">
+               <div className="testimonial-text">
                   <p>
                      "The attention to detail and creativity brought our
                      documentary to life. Can't wait for our next project!"
                   </p>
                </div>
-               <div class="testimonial-author">
+               <div className="testimonial-author">
                   - JANE SMITH, DOCUMENTARY PRODUCER
                </div>
             </div>
             <div className="testimonial-container">
                <div className="avatar"></div>
-               <div class="testimonial-text">
+               <div className="testimonial-text">
                   <p>
                      "Their quick turnaround and innovative approach made a huge
                      impact on our marketing campaign."
                   </p>
                </div>
-               <div class="testimonial-author">
+               <div className="testimonial-author">
                   - MICHAEL LEE, MARKETING DIRECTOR
                </div>
             </div>
