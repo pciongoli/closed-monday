@@ -343,13 +343,13 @@ img {
 .clients-section,
 .services-overview,
 .contact-section {
-   max-width: 1000px;
+   max-width: 900px;
    margin: 45.6px auto;
 }
 .clients-section,
 .services-overview,
 .contact-section {
-   max-width: 1000px;
+   max-width: 900px;
    margin: 45.6px auto;
    padding: 0 8px;
    justify-content: center;
@@ -386,7 +386,7 @@ img {
    margin: 0 20px;
 }
 .short-videos-section {
-   max-width: 1000px;
+   max-width: 900px;
    margin: 45.6px auto;
    overflow: hidden;
 }
