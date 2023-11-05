@@ -116,36 +116,34 @@ const HomePage = () => (
                height="560"
                src="https://www.youtube.com/embed/bTi_OD9R1ZE"
                title="YouTube video player"
-               frameborder="0"
+               frameBorder="0"
                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-               allowfullscreen
+               allowFullScreen
             ></iframe>
             <iframe
                width="315"
                height="560"
                src="https://www.youtube.com/embed/tN6iz9P6A3c"
                title="YouTube video player"
-               frameborder="0"
+               frameBorder="0"
                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-               allowfullscreen
+               allowFullScreen
             ></iframe>
             <iframe
                width="315"
                height="560"
                src="https://www.youtube.com/embed/okyYbCBIwFo"
                title="YouTube video player"
-               frameborder="0"
                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-               allowfullscreen
+               allowFullScreen
             ></iframe>
             <iframe
                width="315"
                height="560"
                src="https://www.youtube.com/embed/fPMvyeEZ9Hc"
                title="YouTube video player"
-               frameborder="0"
                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-               allowfullscreen
+               allowFullScreen
             ></iframe>
          </div>
       </div>
